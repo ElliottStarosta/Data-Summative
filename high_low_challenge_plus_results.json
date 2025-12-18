@@ -1,0 +1,315 @@
+{
+  "game": "High-Low Challenge+ (Whole-Number Version)",
+  "cost_to_play": 2,
+  "payout_table_higher_lower": {
+    "A": 1,
+    "2": 2,
+    "3": 2,
+    "4": 3,
+    "5": 3,
+    "6": 3,
+    "7": 4,
+    "8": 3,
+    "9": 3,
+    "10": 3,
+    "J": 2,
+    "Q": 2,
+    "K": 1
+  },
+  "payout_tie": 8,
+  "random_strategy": {
+    "strategy": "Random (33% Higher, 33% Lower, 33% Tie)",
+    "total_simulations": 1000000,
+    "player": {
+      "wins": 333887,
+      "win_probability": 0.333887,
+      "win_percentage": "33.39%"
+    },
+    "house": {
+      "wins": 666113,
+      "win_probability": 0.666113,
+      "win_percentage": "66.61%"
+    },
+    "house_advantage_percentage": "33.22%",
+    "total_net_winnings": -1068000,
+    "expected_value_per_game": "$-1.0680",
+    "roi_percentage": "-53.40%",
+    "breakdown_by_first_card": {
+      "A": {
+        "payout_for_higher_lower": 1,
+        "total_plays": 76814,
+        "wins": 25547,
+        "losses": 51267,
+        "win_rate": "33.26%",
+        "net_result": -117679
+      },
+      "2": {
+        "payout_for_higher_lower": 2,
+        "total_plays": 76479,
+        "wins": 25683,
+        "losses": 50796,
+        "win_rate": "33.58%",
+        "net_result": -92622
+      },
+      "3": {
+        "payout_for_higher_lower": 2,
+        "total_plays": 76781,
+        "wins": 25498,
+        "losses": 51283,
+        "win_rate": "33.21%",
+        "net_result": -93272
+      },
+      "4": {
+        "payout_for_higher_lower": 3,
+        "total_plays": 77128,
+        "wins": 25846,
+        "losses": 51282,
+        "win_rate": "33.51%",
+        "net_result": -69193
+      },
+      "5": {
+        "payout_for_higher_lower": 3,
+        "total_plays": 76944,
+        "wins": 25591,
+        "losses": 51353,
+        "win_rate": "33.26%",
+        "net_result": -69695
+      },
+      "6": {
+        "payout_for_higher_lower": 3,
+        "total_plays": 77153,
+        "wins": 25679,
+        "losses": 51474,
+        "win_rate": "33.28%",
+        "net_result": -69764
+      },
+      "7": {
+        "payout_for_higher_lower": 4,
+        "total_plays": 76860,
+        "wins": 25902,
+        "losses": 50958,
+        "win_rate": "33.70%",
+        "net_result": -43980
+      },
+      "8": {
+        "payout_for_higher_lower": 3,
+        "total_plays": 76931,
+        "wins": 25728,
+        "losses": 51203,
+        "win_rate": "33.44%",
+        "net_result": -69023
+      },
+      "9": {
+        "payout_for_higher_lower": 3,
+        "total_plays": 76861,
+        "wins": 25447,
+        "losses": 51414,
+        "win_rate": "33.11%",
+        "net_result": -69716
+      },
+      "10": {
+        "payout_for_higher_lower": 3,
+        "total_plays": 77195,
+        "wins": 25744,
+        "losses": 51451,
+        "win_rate": "33.35%",
+        "net_result": -69273
+      },
+      "J": {
+        "payout_for_higher_lower": 2,
+        "total_plays": 76697,
+        "wins": 25702,
+        "losses": 50995,
+        "win_rate": "33.51%",
+        "net_result": -92558
+      },
+      "Q": {
+        "payout_for_higher_lower": 2,
+        "total_plays": 77195,
+        "wins": 25762,
+        "losses": 51433,
+        "win_rate": "33.37%",
+        "net_result": -93860
+      },
+      "K": {
+        "payout_for_higher_lower": 1,
+        "total_plays": 76962,
+        "wins": 25758,
+        "losses": 51204,
+        "win_rate": "33.47%",
+        "net_result": -117365
+      }
+    },
+    "breakdown_by_choice": {
+      "higher": {
+        "wins": 156828,
+        "losses": 176818,
+        "net": -280953
+      },
+      "lower": {
+        "wins": 157249,
+        "losses": 176460,
+        "net": -280237
+      },
+      "tie": {
+        "wins": 19810,
+        "losses": 312835,
+        "net": -506810
+      }
+    }
+  },
+  "optimal_strategy": {
+    "strategy": "Optimal (Maximize Expected Value per Card)",
+    "total_simulations": 1000000,
+    "player": {
+      "wins": 724148,
+      "win_probability": 0.724148,
+      "win_percentage": "72.41%"
+    },
+    "house": {
+      "wins": 275852,
+      "win_probability": 0.275852,
+      "win_percentage": "27.59%"
+    },
+    "house_advantage_percentage": "-44.83%",
+    "total_net_winnings": -334381,
+    "expected_value_per_game": "$-0.3344",
+    "roi_percentage": "-16.72%",
+    "breakdown_by_first_card": {
+      "A": {
+        "payout_for_higher_lower": 1,
+        "optimal_choice": "higher",
+        "total_plays": 76998,
+        "wins": 72545,
+        "losses": 4453,
+        "win_rate": "94.22%",
+        "net_result": -81451
+      },
+      "2": {
+        "payout_for_higher_lower": 2,
+        "optimal_choice": "higher",
+        "total_plays": 76751,
+        "wins": 66251,
+        "losses": 10500,
+        "win_rate": "86.32%",
+        "net_result": -21000
+      },
+      "3": {
+        "payout_for_higher_lower": 2,
+        "optimal_choice": "higher",
+        "total_plays": 76844,
+        "wins": 60232,
+        "losses": 16612,
+        "win_rate": "78.38%",
+        "net_result": -33224
+      },
+      "4": {
+        "payout_for_higher_lower": 3,
+        "optimal_choice": "higher",
+        "total_plays": 77069,
+        "wins": 54376,
+        "losses": 22693,
+        "win_rate": "70.55%",
+        "net_result": 8990
+      },
+      "5": {
+        "payout_for_higher_lower": 3,
+        "optimal_choice": "higher",
+        "total_plays": 76846,
+        "wins": 48279,
+        "losses": 28567,
+        "win_rate": "62.83%",
+        "net_result": -8855
+      },
+      "6": {
+        "payout_for_higher_lower": 3,
+        "optimal_choice": "higher",
+        "total_plays": 76879,
+        "wins": 42285,
+        "losses": 34594,
+        "win_rate": "55.00%",
+        "net_result": -26903
+      },
+      "7": {
+        "payout_for_higher_lower": 4,
+        "optimal_choice": "higher",
+        "total_plays": 77123,
+        "wins": 36170,
+        "losses": 40953,
+        "win_rate": "46.90%",
+        "net_result": -9566
+      },
+      "8": {
+        "payout_for_higher_lower": 3,
+        "optimal_choice": "lower",
+        "total_plays": 76758,
+        "wins": 42309,
+        "losses": 34449,
+        "win_rate": "55.12%",
+        "net_result": -26589
+      },
+      "9": {
+        "payout_for_higher_lower": 3,
+        "optimal_choice": "lower",
+        "total_plays": 76923,
+        "wins": 48362,
+        "losses": 28561,
+        "win_rate": "62.87%",
+        "net_result": -8760
+      },
+      "10": {
+        "payout_for_higher_lower": 3,
+        "optimal_choice": "lower",
+        "total_plays": 76861,
+        "wins": 54074,
+        "losses": 22787,
+        "win_rate": "70.35%",
+        "net_result": 8500
+      },
+      "J": {
+        "payout_for_higher_lower": 2,
+        "optimal_choice": "lower",
+        "total_plays": 77045,
+        "wins": 60524,
+        "losses": 16521,
+        "win_rate": "78.56%",
+        "net_result": -33042
+      },
+      "Q": {
+        "payout_for_higher_lower": 2,
+        "optimal_choice": "lower",
+        "total_plays": 77145,
+        "wins": 66584,
+        "losses": 10561,
+        "win_rate": "86.31%",
+        "net_result": -21122
+      },
+      "K": {
+        "payout_for_higher_lower": 1,
+        "optimal_choice": "lower",
+        "total_plays": 76758,
+        "wins": 72157,
+        "losses": 4601,
+        "win_rate": "94.01%",
+        "net_result": -81359
+      }
+    },
+    "breakdown_by_choice": {
+      "higher": {
+        "wins": 380138,
+        "losses": 158372,
+        "net": -172009
+      },
+      "lower": {
+        "wins": 344010,
+        "losses": 117480,
+        "net": -162372
+      },
+      "tie": {
+        "wins": 0,
+        "losses": 0,
+        "net": 0
+      }
+    }
+  }
+}
