@@ -1,6 +1,6 @@
 
 {
-  "game": "High-Low Challenge (Whole-Number Version)",
+  "game": "High-Low Challenge",
   "cost_to_play": 2,
   "payout_table_higher_lower": {
     "A": 1,
