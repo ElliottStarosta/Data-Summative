@@ -1,0 +1,106 @@
+{
+  "Path A + Cash Out": {
+    "statistics": {
+      "count": 1000000,
+      "total_wagered": 2000000,
+      "total_payouts": 1556074,
+      "total_net_profit": -443926,
+      "average_net_profit": -0.4439,
+      "std_dev": 1.1736,
+      "wins": 723996,
+      "losses": 276004,
+      "win_rate_pct": 72.4
+    },
+    "player": {
+      "wins": 723996,
+      "win_probability": 0.723996,
+      "win_percentage": "72.40%"
+    },
+    "house": {
+      "wins": 276004,
+      "win_probability": 0.276004,
+      "win_percentage": "27.60%"
+    },
+    "house_advantage_percentage": "-44.80%",
+    "expected_value_per_game": "$-0.4439",
+    "roi_percentage": "-22.20%"
+  },
+  "Path A + Continue": {
+    "statistics": {
+      "count": 1000000,
+      "total_wagered": 2362762,
+      "total_payouts": 1428239,
+      "total_net_profit": -934523,
+      "average_net_profit": -0.9345,
+      "std_dev": 2.5445,
+      "wins": 425517,
+      "losses": 574483,
+      "win_rate_pct": 42.55
+    },
+    "player": {
+      "wins": 425517,
+      "win_probability": 0.425517,
+      "win_percentage": "42.55%"
+    },
+    "house": {
+      "wins": 574483,
+      "win_probability": 0.574483,
+      "win_percentage": "57.45%"
+    },
+    "house_advantage_percentage": "14.90%",
+    "expected_value_per_game": "$-0.9345",
+    "roi_percentage": "-39.55%"
+  },
+  "Path B + Cash Out": {
+    "statistics": {
+      "count": 1000000,
+      "total_wagered": 3000000,
+      "total_payouts": 750607,
+      "total_net_profit": -2249393,
+      "average_net_profit": -2.2494,
+      "std_dev": 1.6325,
+      "wins": 180868,
+      "losses": 819132,
+      "win_rate_pct": 18.09
+    },
+    "player": {
+      "wins": 180868,
+      "win_probability": 0.180868,
+      "win_percentage": "18.09%"
+    },
+    "house": {
+      "wins": 819132,
+      "win_probability": 0.819132,
+      "win_percentage": "81.91%"
+    },
+    "house_advantage_percentage": "63.83%",
+    "expected_value_per_game": "$-2.2494",
+    "roi_percentage": "-74.98%"
+  },
+  "Path B + Continue": {
+    "statistics": {
+      "count": 1000000,
+      "total_wagered": 3090208,
+      "total_payouts": 599919,
+      "total_net_profit": -2490289,
+      "average_net_profit": -2.4903,
+      "std_dev": 2.0445,
+      "wins": 106417,
+      "losses": 893583,
+      "win_rate_pct": 10.64
+    },
+    "player": {
+      "wins": 106417,
+      "win_probability": 0.106417,
+      "win_percentage": "10.64%"
+    },
+    "house": {
+      "wins": 893583,
+      "win_probability": 0.893583,
+      "win_percentage": "89.36%"
+    },
+    "house_advantage_percentage": "78.72%",
+    "expected_value_per_game": "$-2.4903",
+    "roi_percentage": "-80.59%"
+  }
+}
